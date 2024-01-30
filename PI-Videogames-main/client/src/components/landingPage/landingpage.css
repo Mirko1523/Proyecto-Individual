@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .landing-page-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .imagen-landing {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+ /* Otros estilos CSS ... */
+
+.button-container {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .video-games-button {
+    background-color: #842a00;
+    color: #ffd700;
+    font-size: 28px;
+    padding: 20px 40px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    font-family: 'IM Fell English', serif; /* Puedes usar la fuente específica de God of War si la tienes */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .video-games-button:hover {
+    background-color: #ffd700;
+    color: #842a00;
+    transform: scale(1.05);
+  }
+  

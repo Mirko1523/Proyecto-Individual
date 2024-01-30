@@ -1,0 +1,10 @@
+### GET games rawg
+
+get https://api.rawg.io/api/games?key=f37460907a6e4c21ab184f796c6bb3b7
+
+### GET My API
+### 
+get http://localhost:3001/videogames
+
+### post database
+post 

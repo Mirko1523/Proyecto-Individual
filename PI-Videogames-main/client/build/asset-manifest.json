@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e359cd86.css",
+    "main.js": "/static/js/main.93fa6096.js",
+    "static/js/496.0281fd78.chunk.js": "/static/js/496.0281fd78.chunk.js",
+    "static/media/fondo_control.jpg": "/static/media/fondo_control.258188f8154d9b37a4fd.jpg",
+    "static/media/2022-king-kratos-god-of-war-ragnarok-video-game-wallpaper-3554x1999_53.jpg": "/static/media/2022-king-kratos-god-of-war-ragnarok-video-game-wallpaper-3554x1999_53.dd8742830391cbaf90ef.jpg",
+    "static/media/WhatsApp Image 2024-01-12 at 01.08.12 (2).jpeg": "/static/media/WhatsApp Image 2024-01-12 at 01.08.12 (2).c48613785c0bdb241374.jpeg",
+    "index.html": "/index.html",
+    "main.e359cd86.css.map": "/static/css/main.e359cd86.css.map",
+    "main.93fa6096.js.map": "/static/js/main.93fa6096.js.map",
+    "496.0281fd78.chunk.js.map": "/static/js/496.0281fd78.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e359cd86.css",
+    "static/js/main.93fa6096.js"
+  ]
+}

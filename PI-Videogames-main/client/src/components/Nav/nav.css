@@ -1,0 +1,46 @@
+/* Estilos para el contenedor del menú de navegación */
+.nav-div {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+/* Estilos para los botones de navegación */
+.nav-div button {
+    font-family: 'Press Start 2P';
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: rgba(199, 44, 37, 0.8); /* Fondo rojo con opacidad estilo God of War */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+
+    /* Estilos adicionales para hover */
+    &:hover {
+        background-color: white; /* Fondo blanco con opacidad al pasar el mouse */
+        color: #c72c25;
+    }
+}
+
+/* Estilos adicionales para el enlace activo */
+.nav-div button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Estilos para el fondo alrededor de los botones */
+.nav-div::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro alrededor de los botones */
+    border-radius: 10px; /* Borde redondeado */
+}

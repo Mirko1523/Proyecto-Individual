@@ -1,0 +1,78 @@
+/* about.css */
+
+
+
+.about-container .container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-container .fondo1 {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.about-container .content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-container button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 40px;
+  font-size: 16px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.about-container button:hover {
+  background-color: #2980b9;
+}
+
+.about-container h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-family: 'Press Start 2P', cursive;
+  background-color: transparent;
+  color: yellow;
+}
+
+.about-container h1:first-child {
+  font-size: 64px;
+}
+
+.about-container h2 {
+  font-size: 30px;
+}
+
+.about-container p {
+  font-size: 15px;
+}
+
+.about-container .presentation {
+  width: 200px;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Otros estilos específicos de About */

@@ -1,0 +1,24 @@
+.container-div {
+    display: flex;
+    justify-content: center;
+}
+
+.selectCont {
+    padding: 8px; /* Ajuste del padding para achicar */
+    margin: 15px; /* Ajuste del margen para achicar */
+    width: 300px; /* Reducción del ancho */
+    font-family: 'Press Start 2P';
+    border-radius: 15px; /* Reducción del radio del borde */
+    background-color: #c72c25; /* Color rojo estilo God of War */
+    color: white;
+}
+
+.option {
+    margin: 3px; /* Ajuste del margen para achicar */
+    font-family: 'Press Start 2P';
+}
+
+.optionGroup {
+    padding: 8px; /* Ajuste del padding para achicar */
+    font-family: 'Press Start 2P';
+}

@@ -1,0 +1,42 @@
+.searchbar-div {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para el botón general */
+.btn {
+  margin-left: 5px;
+  font-family: 'Press Start 2P';
+  padding: 15px; /* Aumentado el padding para hacerlo más grande */
+  margin: 20px;
+  border-radius: 30px;
+  background-color: #c72c25; /* Color rojo parecido al de God of War */
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilos para la barra de búsqueda */
+.bar-btn {
+  font-family: 'Press Start 2P';
+  padding: 12px; /* Aumentado el padding para hacerlo más grande */
+  margin-left: 170px; /* Ajustado el margen izquierdo para moverlo más a la izquierda */
+  width: 400px;
+  background-color: #d2b48c; /* Color dorado parecido al de God of War */
+  border-radius: 20px;
+  transition: background-color 0.3s;
+}
+
+/* Estilos adicionales para hover */
+.btn:hover {
+  background-color: rgb(255, 255, 255);
+  color: #c72c25;
+}
+
+.bar-btn:hover {
+  background-color: #ffe4b5; /* Cambiado a un tono más claro parecido al de God of War */
+}

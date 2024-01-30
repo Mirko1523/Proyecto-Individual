@@ -1,0 +1,29 @@
+.pagination-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .pagination-list {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  .pagination-item {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .pagination-button {
+    background-color: #c43c35;
+    color: #fff;
+    border: 1px solid #c43c35;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .pagination-button:hover {
+    background-color: #7f251e;
+  }
+  
